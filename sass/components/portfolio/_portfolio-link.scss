@@ -32,9 +32,7 @@
     &:hover .projects-description,
     &:focus .projects-description {
         transform: translateY(0);
-    }
-
-    }}
+    }}}
 
 
 
@@ -46,7 +44,7 @@
 .projects-description {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
     height: 100%;
     display: flex;
