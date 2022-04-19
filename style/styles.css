@@ -74,12 +74,12 @@ textarea {
 
 /* Верхняя линия */
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-link {
+.header__link {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -90,7 +90,7 @@ textarea {
   margin-right: 93px;
 }
 
-.header-studio {
+.header__studio {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -100,20 +100,20 @@ textarea {
   color: var(--text-header);
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   align-items: center;
 }
 
-.nav-item {
+.nav__item {
   margin-right: 50px;
 }
 
-.nav-item:last-child {
+.nav__item:last-child {
   margin-right: 0px;
 }
 
-.nav-link {
+.nav__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -126,16 +126,16 @@ textarea {
   transition: color var(--animation), background-color var(--animation);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--active-color);
 }
 
-.current {
+.nav--current {
   color: var(--active-color);
 }
 
-.current::after {
+.nav--current::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -147,34 +147,21 @@ textarea {
   border-radius: 2px;
 }
 
-/* .nav-link:hover::after,
-.nav-link:focus::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--active-color);
-  border-radius: 2px;
-} */
-
-.contact-list {
+.contact__list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.connect-list:last-child {
+.connect__list:last-child {
   margin: 0;
 }
 
-.contact-item:nth-last-child(n) {
+.contact__item:nth-last-child(n) {
   margin-right: 30px;
 }
 
-.header-mail {
+.contact__mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -185,17 +172,17 @@ textarea {
   transition: color var(--animation);
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.contact__mail:hover,
+.contact__mail:focus {
   color: var(--active-color);
 }
 
-.icon-contact {
+.contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-tel {
+.contact__tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -206,8 +193,8 @@ textarea {
   transition: color var(--animation);
 }
 
-.header-tel:hover,
-.header-tel:focus {
+.contact__tel:hover,
+.contact__tel:focus {
   color: var(--active-color);
 }
 
