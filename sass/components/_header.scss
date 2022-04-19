@@ -1,5 +1,6 @@
 .header__container {
     display: flex;
+    flex-grow: 1;
     align-items: center;
 }
 
@@ -31,11 +32,10 @@
 
 .nav__item {
     margin-right: 50px;
-}
 
-.nav__item:last-child {
+    &:last-child {
     margin-right: 0px;
-}
+}}
 
 .nav__link {
     position: relative;
@@ -48,18 +48,15 @@
     text-decoration: none;
     padding: 32px 0;
     transition: color var(--animation), background-color var(--animation);
-}
-
-.nav__link:hover,
-.nav__link:focus {
+    
+    &:hover,
+    &:focus {
     color: var(--active-color);
-}
+}}
 
 .nav--current {
     color: var(--active-color);
-}
-
-.nav--current::after {
+    &::after {
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -69,20 +66,18 @@
     height: 4px;
     background-color: var(--active-color);
     border-radius: 2px;
-}
+}}
 
 .contact__list {
     display: flex;
     align-items: center;
+    margin-left: auto;   
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
     margin-left: auto;
-}
-
-.connect__list:last-child {
-    margin: 0;
-}
-
-.contact__item:nth-last-child(n) {
-    margin-right: 30px;
 }
 
 .contact__mail {
@@ -94,12 +89,11 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     transition: color var(--animation);
-}
 
-.contact__mail:hover,
-.contact__mail:focus {
+    &:hover,
+    &:focus {
     color: var(--active-color);
-}
+}}
 
 .contact__icon {
     margin-right: 10px;
@@ -109,15 +103,15 @@
 .contact__tel {
     display: flex;
     align-items: center;
+    margin-left: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
     transition: color var(--animation);
-}
 
-.contact__tel:hover,
-.contact__tel:focus {
+    &:hover,
+    &:focus {
     color: var(--active-color);
-}
+}}

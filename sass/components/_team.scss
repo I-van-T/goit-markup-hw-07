@@ -25,11 +25,10 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
 
-.team-item:last-child {
+    &:last-child {
     margin-right: 0px;
-}
+}}
 
 .team-subtitle {
     padding-top: 30px;
@@ -63,11 +62,10 @@
 
 .social-item {
     margin-right: 10px;
-}
-
-.social-item:last-child {
+    
+    &:last-child {
     margin-right: 0px;
-}
+}}
 
 .social-link {
     display: flex;
@@ -80,13 +78,12 @@
     border-radius: 50%;
     cursor: pointer;
     transition: fill var(--animation), background-color var(--animation);
-}
 
-.social-link:hover,
-.social-link:focus {
+    &:hover,
+    &:focus {
     fill: var(--back-color);
     background-color: var(--active-color);
-}
+}}
 
 .social-icon {
     width: 20px;

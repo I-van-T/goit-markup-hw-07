@@ -19,14 +19,13 @@
     border: 2px solid var(--text-header);
     border-radius: 4px;
     fill: var(--back-color);
-}
 
-.checkbox:checked+.check-icon {
+.checkbox:checked+ & {
     fill: var(--back-color);
     background-color: var(--active-color);
     background-origin: border-box;
     border: var(--active-color);
-}
+}}
 
 .form-link {
     margin-left: 4px;

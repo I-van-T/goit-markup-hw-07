@@ -23,11 +23,10 @@
 
 .connect-item {
     margin-right: 10px;
-}
 
-.connect-item:last-child {
+    &:last-child {
     margin-right: 0px;
-}
+}}
 
 .connect-link {
     display: flex;
@@ -40,9 +39,8 @@
     border-radius: 50%;
     cursor: pointer;
     transition: background-color var(--animation);
-}
 
-.connect-link:hover,
-.connect-link:focus {
+    &:hover,
+    &:focus {
     background-color: var(--active-color);
-}
+}}

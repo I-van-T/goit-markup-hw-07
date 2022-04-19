@@ -6,11 +6,10 @@
 
 .filtr-item {
   margin-right: 8px;
-}
 
-.filtr-item:last-child {
+  &:last-child {
   margin-right: 0px;
-}
+}}
 
 .filtr-btn {
   padding: 6px 22px;
@@ -22,13 +21,12 @@
   border-radius: 4px;
   cursor: pointer;
   transition: color var(--animation), background var(--animation), box-shadow var(--animation);
-}
 
-.filtr-btn:hover,
-.filtr-btn:focus {
+  &:hover,
+  &:focus {
   color: var(--back-color);
   background: var(--active-color);
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+}}

@@ -42,9 +42,8 @@
     min-width: 200px;
     margin-top: 30px;
     transition: background-color var(--animation);
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
+    &:hover,
+    &:focus {
     background-color: #188ce8;
-}
+}}

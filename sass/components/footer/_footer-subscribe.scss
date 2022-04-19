@@ -43,12 +43,11 @@
     margin-left: 12px;
     fill: var(--back-color);
     transition: background-color var(--animation);
-}
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
+    &:hover,
+    &:focus {
     background-color: #188ce8;
-}
+}}
 
 .subscribe-icon {
     width: 24px;

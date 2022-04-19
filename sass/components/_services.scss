@@ -19,11 +19,10 @@
 
 .services-item {
     margin-right: 30px;
-}
 
-.services-item:last-child {
+    &:last-child {
     margin: 0px;
-}
+}}
 
 .services-wrapper {
     position: relative;

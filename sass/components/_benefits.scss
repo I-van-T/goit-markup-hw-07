@@ -5,7 +5,10 @@
 
 .benefits-item {
     margin-right: 30px;
-}
+
+    &:last-child {
+        margin: 0px;
+}}
 
 .future {
     display: flex;
@@ -23,9 +26,6 @@
     height: 70px;
 }
 
-.benefits-item:last-child {
-    margin: 0px;
-}
 
 .benefits-title {
     font-weight: 700;
