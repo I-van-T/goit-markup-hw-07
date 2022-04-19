@@ -925,12 +925,12 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   padding-left: 35px;
-  transition: border var(--animation)
+  transition: border var(--animation);
 }
 
 .form-field input:hover,
 .form-field input:focus {
-  border: 1px solid var(--active-color)
+  border: 1px solid var(--active-color);
 }
 
 .form-comment {
@@ -939,7 +939,6 @@ textarea {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  
 }
 
 .form-field label,
@@ -959,9 +958,9 @@ textarea {
   width: 18px;
   height: 18px;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 12px;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
   transition: var(--animation);
 }
 
@@ -988,7 +987,7 @@ textarea {
 
 .form-comment textarea:hover,
 .form-comment textarea:focus {
-  border: 1px solid var(--active-color)
+  border: 1px solid var(--active-color);
 }
 
 .form-check {
@@ -1015,7 +1014,6 @@ textarea {
   border: 2px solid var(--text-header);
   border-radius: 4px;
   fill: var(--back-color);
-  
 }
 
 .checkbox:checked + .check-icon {
