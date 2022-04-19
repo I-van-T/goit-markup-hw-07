@@ -977,9 +977,6 @@ textarea {
   border: 1px solid var(--active-color);
 }
 
-.form-check {
-}
-
 .label-check {
   display: flex;
   justify-content: center;
