@@ -37,13 +37,13 @@ textarea {
   resize: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
   padding-inline-start: 0px;
-}
-
-.link {
-  text-decoration: none;
 }
 
 body {
@@ -98,7 +98,7 @@ body {
   align-items: center;
 }
 
-.header__link {
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -109,7 +109,7 @@ body {
   margin-right: 93px;
 }
 
-.header__studio {
+.logo__studio {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -149,11 +149,11 @@ body {
   color: var(--active-color);
 }
 
-.nav--current {
+.nav__link--current {
   color: var(--active-color);
 }
 
-.nav--current::after {
+.nav__link--current::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -165,19 +165,19 @@ body {
   border-radius: 2px;
 }
 
-.contact__list {
+.contacts__list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.contact__item {
+.contacts__item {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.contact__mail {
+.contacts__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -186,31 +186,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   transition: color var(--animation);
+  margin-left: 10px;
 }
 
-.contact__mail:hover, .contact__mail:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--active-color);
 }
 
-.contact__icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.contact__tel {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  transition: color var(--animation);
-}
-
-.contact__tel:hover, .contact__tel:focus {
-  color: var(--active-color);
 }
 
 .hero {
